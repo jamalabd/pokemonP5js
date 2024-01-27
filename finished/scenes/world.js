@@ -1,8 +1,8 @@
-import { makeNPC } from "../entities/npc.js";
-import { makePlayer } from "../entities/player.js";
-import { makeTiledMap } from "../entities/map.js";
-import { makeDialogBox } from "../entities/dialogBox.js";
-import { makeCamera } from "../entities/camera.js";
+import { makeNPC } from "../../entities/npc.js";
+import { makePlayer } from "../../entities/player.js";
+import { makeTiledMap } from "../../entities/map.js";
+import { makeDialogBox } from "../../entities/dialogBox.js";
+import { makeCamera } from "../../entities/camera.js";
 
 export function makeWorld(p, setScene) {
   return {
